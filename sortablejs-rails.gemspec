@@ -3,7 +3,7 @@ require_relative 'lib/sortablejs-rails.rb'
 Gem::Specification.new do |s|
   s.name        = 'sortablejs-rails'
   s.version     = SortableJS::VERSION
-  s.date        = '2021-02-09'
+  s.date        = '2021-12-22'
   s.summary     = 'SortableJS for Ruby on Rails'
   s.description = "A gem that provides the SortableJS library to Rails's asset pipeline."
   s.authors     = ['Manuel Schnitzer']
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
     '*.md',
   ]
 
-  s.add_dependency 'rails', '< 7', '>= 6.0.0'
+  s.add_dependency 'rails', '< 8', '>= 6.0.0'
 end
