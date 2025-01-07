@@ -1,4 +1,4 @@
-require_relative 'rails/engine'
+require 'sortablejs-rails/rails/engine'
 
 module SortableJS
   module Rails

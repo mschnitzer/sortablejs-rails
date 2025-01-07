@@ -1,4 +1,4 @@
-require_relative 'lib/sortablejs-rails.rb'
+require File.expand_path('../lib/sortablejs-rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'sortablejs-rails'
@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.email       = 'webmaster@mschnitzer.de'
   s.homepage    = 'https://github.com/mschnitzer/sortablejs-rails'
   s.license     = 'MIT'
+  s.required_ruby_version = ">= 2.5"
 
   s.files       = Dir[
     'lib/**/*',
